@@ -1,0 +1,38 @@
+div{
+    padding: 1rem 2rem;        
+    text-align: right;
+}
+.input_container{
+    display: flex; 
+    justify-content: space-between;
+}
+input{    
+    border-radius: 30px;
+    outline:none;
+    border:none;
+    display: inline;
+    background: #f1f1f1;
+    padding: .5rem 0 .5rem 1.5rem;
+    font-size: 1.2rem;
+    color:#333;
+    width:200px;
+}
+select{    
+    border-radius: 30px;
+    outline:none;
+    display: inline;
+    padding:.5px 1rem;
+    border:none;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    background: #f1f1f1;
+    color:#555;    
+}
+button{    
+    border-radius: 30px;
+    outline:none;
+    padding:.5rem 4rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    color:#555;    
+}
